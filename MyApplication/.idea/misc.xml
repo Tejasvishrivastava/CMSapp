@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/edit_text.xml" value="0.107" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/edit_text2.xml" value="0.152" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/edit_text3.xml" value="0.152" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_my_dashboard.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_user_auth.xml" value="0.1796875" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/auth_activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/content_main2.xml" value="0.1796875" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_ca_signed.xml" value="0.22" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_cert_list.xml" value="0.3086680761099366" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_certificate_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_certificate_list_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_first.xml" value="0.22" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_item_list.xml" value="0.20675105485232068" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_my_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_register.xml" value="0.22" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_root_c_a_certificate.xml" value="0.1796875" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_scrolling.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_second.xml" value="0.22" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_self_signed.xml" value="0.25" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_signed_cert.xml" value="0.1796875" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_signed_certificate.xml" value="0.22" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_signin.xml" value="0.22" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/layout/mydashboard_content_main.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/d991957/AndroidStudioProjects/MyApplication/app/src/main/res/menu/menu_main.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

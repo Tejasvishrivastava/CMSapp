@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.telstra.myapplication.Fragments.SignInFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_signin">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_myDashboardFragment2"
+            app:destination="@id/myDashboardFragment2" />
+        <argument android:name="Argument_to_signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.telstra.myapplication.Fragments.RegisterFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_register">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myDashboardFragment2"
+        android:name="com.telstra.myapplication.Fragments.MyDashboardFragment"
+        android:label="fragment_my_dashboard"
+        tools:layout="@layout/fragment_my_dashboard" >
+        <action
+            android:id="@+id/action_myDashboardFragment2_to_caSignedFragment2"
+            app:destination="@id/caSignedFragment2" />
+        <action
+            android:id="@+id/action_myDashboardFragment2_to_selfSignedFragment"
+            app:destination="@id/selfSignedFragment" />
+        <action
+            android:id="@+id/action_myDashboardFragment2_to_signedCertificateFragment"
+            app:destination="@id/signedCertificateFragment" />
+        <action
+            android:id="@+id/action_myDashboardFragment2_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_myDashboardFragment2_to_certListFragment"
+            app:destination="@id/certListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/caSignedFragment2"
+        android:name="com.telstra.myapplication.Fragments.CaSignedFragment"
+        android:label="fragment_ca_signed"
+        tools:layout="@layout/fragment_ca_signed" >
+        <action
+            android:id="@+id/action_caSignedFragment2_to_myDashboardFragment2"
+            app:destination="@id/myDashboardFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/selfSignedFragment"
+        android:name="com.telstra.myapplication.Fragments.SelfSignedFragment"
+        android:label="fragment_self_signed"
+        tools:layout="@layout/fragment_self_signed" >
+        <action
+            android:id="@+id/action_selfSignedFragment_to_myDashboardFragment2"
+            app:destination="@id/myDashboardFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/signedCertificateFragment"
+        android:name="com.telstra.myapplication.Fragments.SignedCertificateFragment"
+        android:label="fragment_signed_certificate"
+        tools:layout="@layout/fragment_signed_certificate" >
+        <action
+            android:id="@+id/action_signedCertificateFragment_to_myDashboardFragment2"
+            app:destination="@id/myDashboardFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/certListFragment"
+        android:name="com.telstra.myapplication.Fragments.CertListFragment"
+        android:label="fragment_cert_list"
+        tools:layout="@layout/fragment_cert_list" >
+        <action
+            android:id="@+id/action_certListFragment_to_myDashboardFragment2"
+            app:destination="@id/myDashboardFragment2" />
+    </fragment>
+</navigation>

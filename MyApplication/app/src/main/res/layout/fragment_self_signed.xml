@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDE1DF"
+    tools:context=".Fragments.SelfSignedFragment">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#2F6E61"
+        android:padding="5dp"
+        android:text="Self Signed Certificate"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/backbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+
+        android:id="@+id/scrollView"
+        android:layout_width="323dp"
+        android:layout_height="386dp"
+        android:isScrollContainer="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424">
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:text="country Name"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <EditText
+
+                android:id="@+id/countryName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text3"
+                android:hint="Enter country name here"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:text="state Or Province Name"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <EditText
+                android:id="@+id/stateOrProvinceName"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text3"
+                android:hint="Enter state here"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:text="locality Name"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+
+            <EditText
+                android:id="@+id/localityName"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text3"
+                android:hint="Enter locality or city name here "
+                android:padding="5dp"
+                android:textAlignment="center"
+
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:text="organization Name"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <EditText
+                android:id="@+id/organizationName"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text3"
+                android:hint="Enter organization name here"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:text="organizational Unit Name"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <EditText
+                android:id="@+id/organizationalUnitName"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/edit_text3"
+                android:hint="Enter organizational unit name here e.g. IT"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:text="common Name"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <EditText
+                android:id="@+id/commonName"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text3"
+                android:hint="Enter common name here"
+                android:textAlignment="center"
+                android:padding="5dp"
+
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:text="email Address"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <EditText
+                android:id="@+id/emailAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text3"
+                android:hint="Enter email address here"
+                android:padding="5dp"
+                android:textAlignment="center"
+
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:text="Key Bit Size"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <EditText
+                android:id="@+id/keyBitSize"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/edit_text3"
+                android:hint="Enter Private key bit size here 512/1024/2048"
+                android:padding="5dp"
+                android:textAlignment="center"
+
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:text="CSR Sign Algo"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <EditText
+                android:id="@+id/csrSignAlgo"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/edit_text3"
+                android:hint="Enter CSR sign algorithm here - SHA256/SHA512"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:text="Validity"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <EditText
+                android:id="@+id/validity"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text3"
+                android:hint="Enter days(validity) here - 365"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:text="Subject Alt Name 1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <EditText
+                android:id="@+id/subjectAltName1"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text3"
+                android:hint="Enter subject alt name 1"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:text="Subject Alr Name 2"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <EditText
+                android:id="@+id/subjectAltName2"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text3"
+                android:hint="Enter subject alt name 2"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:padding="8dp"
+                android:text="Key Usage"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5pt">
+            </View>
+            <EditText
+                android:id="@+id/keyUsage"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text3"
+                android:hint="encipherOnly,digitalSignature"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#2F6E61"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#2F6E61"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
